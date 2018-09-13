@@ -7,6 +7,13 @@
  */
 const getFlags = arr => {
   /* your logic here...*/
+  last = arr[arr.length -1];
+  let finalarr =[];
+  for (let i = 1; i <= last; i++){
+    finalarr.push(i);
+  }
+  return finalarr;
 };
 
 export default getFlags;
+

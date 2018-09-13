@@ -12,6 +12,11 @@
  */
 const sumElements = arr => {
   /* your logic here...*/
+  let sum = 0;
+  arr.forEach(element => {
+    sum += parseFloat(element);
+  });
+  return sum;
 };
 
 export default sumElements;
